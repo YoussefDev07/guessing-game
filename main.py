@@ -3,7 +3,7 @@ from colorama import Fore, Style
 
 # variables
 
-randnum = 75
+randnum = random.randint(0, 100)
 guesses = []
 
 #* while for repeat run
